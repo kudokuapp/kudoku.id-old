@@ -16,14 +16,14 @@ export const Hero = () => {
     }, []);
 
     return (
-        <section className="h-max lg:mx-6 md:mb-6 mb-8 mt-8 flex flex-col items-center justify-center">
+        <section className="h-max md:mb-6 mb-8 mt-8 flex flex-col items-center justify-center">
             <AnnoucementBtn link="/manifesto">Baca kenapa kami buat Kudoku</AnnoucementBtn>
-            <div className="sm:gap-0 gap-6 lg:px-16 lg:py-14 sm:px-12 sm:py-10 px-4 py-6">
-                <div className="sm:mt-6 sm:px-10 px-0">
-                    <h1 className="gradient-text-new text-5xl sm:text-7xl font-bold sm:leading-snug leading-snug text-center my-0">
+            <div className="sm:gap-0 gap-6 lg:py-14 sm:py-10 py-6">
+                <div className="sm:mt-6 px-0">
+                    <h1 className="gradient-text-new text-5xl sm:text-7xl font-bold sm:leading-snug leading-snug text-center my-0 px-4">
                         Stop cari aplikasi yang lain.
                     </h1>
-                    <h2 className="text-center font-[500] text-xl sm:text-3xl text-onPrimaryContainer my-0 mt-4">
+                    <h2 className="text-center font-[500] text-xl sm:text-3xl text-onPrimaryContainer my-0 mt-4 px-4">
                         Kenalin Kudoku,{' '}
                         <span className="font-bold">aplikasi pengelola keuangan</span> yang fiturnya
                         paling mantep.

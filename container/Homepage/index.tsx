@@ -10,13 +10,15 @@ import { RegisterLayout } from '../../components/RegisterLayout';
 export const HomePage = () => {
     return (
         <>
-            <main className="flex flex-col h-full w-full max-w-[1400px] mx-auto lg:px-0 px-[3vmin]">
+            <main className="h-full w-full mx-auto max-w-[1400px] px-2">
                 <Hero />
+            </main>
+            <section className="flex flex-col h-full w-full max-w-[1400px] mx-auto lg:px-0 px-[3vmin]">
                 <Mockup />
                 <Manifesto />
                 <Explanation />
                 <OldvsNew />
-            </main>
+            </section>
 
             <RegisterLayout />
 
