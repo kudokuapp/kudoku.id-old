@@ -1,0 +1,27 @@
+import { MdxLayout } from '../../components/MdxLayout';
+import { RegisterLayout } from '../../components/RegisterLayout';
+import Head from 'next/head';
+
+# Misi kita untuk membuat aplikasi finansial yang keren.
+
+Mengelola keuangan pribadi itu susah. Aplikasi pengelolaan keuangan pribadi yang ada, belum bisa bekerja secara maksimal buat ngebantu kita. Itulah kenapa, 8 dari 10 teman kami **berhenti** menggunakan aplikasi pengelolaan keuangan pribadi yang ada sekarang.
+
+Pengelolaan keuangan pribadi itu bukan cuma bikin budget bulanan, nge-track kemana uang kita pergi, dan nabung. Itu adalah hal yang paling fundamental. Gimana kalau harus track cicilan rumah? belum lagi nge-track biaya langganan? Oiya, kalau ada utang yang lain? nilai investasi gimana? dan lain-lain.
+
+Itulah kenapa kami buat Kudoku. Aplikasi finansial yang serba ada. _Sorry to say_, kami merasa gak puas dengan aplikasi pengelolaan keuangan pribadi yang ada sekarang.
+
+Sebenernya, pengelolaan keuangan pribadi itu dibagi jadi 5 hal aja. Income, spending, savings, investing, dan protection. Dan itu semua ada di Kudoku. Satu aplikasi yang bisa bikin kamu tau secara utuh kondisi finansial kamu. Bukan cuman yang fundamentalnya aja.
+
+Emang bener, mikirin duit itu lebih banyak bikin pusingnya daripada senengnya. Tapi kita butuh mikirin duit. Biar bisa ningkatin taraf hidup kedepannya. Kami bertiga berharap, Kudoku bisa ngeringanin pusing kamu.
+
+export default ({ children }) => {
+    return (
+        <>
+            <Head>
+                <title>Manifesto</title>
+            </Head>
+            <MdxLayout>{children}</MdxLayout>
+            <RegisterLayout />
+        </>
+    );
+};

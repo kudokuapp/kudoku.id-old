@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply md:text-4xl text-3xl font-bold my-4 text-primary;
+    }
+
+    h2 {
+        @apply md:text-3xl text-2xl font-bold my-4 text-onPrimaryContainer;
+    }
+
+    h3 {
+        @apply md:text-2xl text-xl font-bold my-4 text-tertiary;
+    }
+
+    p {
+        @apply text-base font-normal mb-4 last:mb-0 text-justify text-black;
+    }
+
+    p + h1,
+    p + h2,
+    p + h3 {
+        @apply mt-10;
+    }
+
+    blockquote {
+        @apply relative border-l-4 pl-4 sm:pl-6 border-tertiary my-4;
+    }
+
+    blockquote > p {
+        @apply text-lg text-left text-black;
+    }
+
+    ol {
+        @apply list-decimal list-inside marker:text-primary marker:font-bold mb-4;
+    }
+
+    ol > li {
+        @apply text-black text-base text-justify;
+    }
+
+    ul {
+        @apply list-disc list-inside marker:text-primary mb-4;
+    }
+
+    ul > li {
+        @apply text-black text-base text-justify;
+    }
+
+    code {
+        @apply font-mono bg-onSurfaceVariant text-orange-300 px-1 py-0.5 rounded-md border-[1px] border-white mb-4;
+    }
+
+    hr {
+        @apply text-primary border-[1px] border-primary my-4;
+    }
+
+    li {
+        @apply my-1;
+    }
+
+    a {
+        @apply text-blue-500 underline;
+    }
+}
+
+@layer components {
+    .animation-popup {
+        @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200;
+    }
+
+    .mdx-main {
+        @apply max-w-[800px] mx-auto md:px-0 px-4 my-14;
+    }
+
+    .card-main {
+        @apply w-full h-full lg:rounded-[3.5rem] md:rounded-[2.5rem] sm:rounded-[2.0rem] rounded-[1.5rem] shadow;
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+}
