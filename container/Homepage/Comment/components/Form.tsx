@@ -1,7 +1,7 @@
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment, useState } from 'react';
 
-export const Form = (props) => {
+export const Form = (props: any) => {
     const [text, setText] = useState('');
 
     return (
