@@ -23,7 +23,7 @@ export const TwitterButton = (props: { type: 'comment' | 'signin' }) => {
                     >
                         <TwitterIcon className="w-5 h-5" fill="#ffffff" />
                         <p className="text-onPrimary text-lg font-[500]">
-                            Masuk Twitter buat reply comment
+                            Masuk Twitter buat reply
                         </p>
                     </button>
                 </>

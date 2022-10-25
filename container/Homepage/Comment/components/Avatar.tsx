@@ -60,7 +60,7 @@ export const Avatar = (props: {
             body: JSONdata,
         };
 
-        const response = await fetch('/api/postcomment', options);
+        const response = await fetch('/api/comment/post', options);
         const result = await response.json();
     };
 
