@@ -19,7 +19,6 @@ export const Placeholder = ({ type }: { type: 'footer' | 'normal' }): JSX.Elemen
     const [cipher, setCipher] = useState('');
     const [otpPlaceholder, setOtpPlaceholder] = useState(false);
     const [counter, setCounter] = useState(30);
-    const [resetCounter, setResetCounter] = useState(false);
     const [err, setErr] = useState('');
 
     useEffect(() => {
@@ -32,11 +31,11 @@ export const Placeholder = ({ type }: { type: 'footer' | 'normal' }): JSX.Elemen
 
     const getCode = async () => {
         setOtpPlaceholder(true);
-        // await axios.get('/api/twilio/getcode', {
-        //     params: {
-        //         ver: ifFirstCharIsZero(phoneNum),
-        //     },
-        // });
+        await axios.get('/api/twilio/getcode', {
+            params: {
+                ver: ifFirstCharIsZero(phoneNum),
+            },
+        });
     };
 
     const verifyCode = async () => {
@@ -194,9 +193,9 @@ const Front = ({
                         }
                     }}
                     placeholder="WhatsApp Kamu..."
-                    minLength={10}
                     type="tel"
                     onChange={onChange}
+                    maxLength={13}
                 />
             </div>
             <RegisterButton
