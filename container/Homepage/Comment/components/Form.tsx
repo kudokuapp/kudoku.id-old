@@ -21,7 +21,7 @@ export const Form = (props: any) => {
                             type="text"
                             name="text"
                             className="w-full focus:outline-none"
-                            placeholder="Tulis komen kamu"
+                            placeholder="Tulis komen kamu..."
                             value={text}
                             onChange={(e) => setText(e.target.value)}
                             maxLength={260}

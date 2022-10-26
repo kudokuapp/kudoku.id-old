@@ -24,7 +24,7 @@ export const ReplyForm = (props: {
                             type="text"
                             name="text"
                             className="w-full focus:outline-none"
-                            placeholder="Write your comment here..."
+                            placeholder="Tulis komen kamu..."
                             value={text}
                             onChange={(e) => setText(e.target.value)}
                         />
