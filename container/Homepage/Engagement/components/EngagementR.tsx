@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export const EngagementR = () => {
     const textWA =
-        'Eh, lo udah check Kudoku belum? Ini menurut gua aplikasinya keren banget sih. Jadi aplikasi ini ngebikin gua bisa nge-track seluruh aspek finansial gua. Mulai dari income, expense, asset, sampe liability. Gua bisa tau kemana duit gua pergi secara detail. Lo mending check dah di ';
+        'Eh, lo udah cek Kudoku belum? Ini menurut gua aplikasinya keren banget sih. Jadi aplikasi ini ngebikin gua bisa nge-track seluruh aspek finansial gua. Mulai dari income, expense, asset, sampe liability. Gua bisa tau kemana duit gua pergi secara detail. Lo mending check dah di ';
     const URISafeWA = encodeURIComponent(textWA);
     const waLink = `https://wa.me/send?text=${URISafeWA}%20https%3A%2F%2Fkudoku.id%3Futm_source%3Dwhatsapp.`;
 
     const textTwitter =
-        'Eh, lo udah check Kudoku belum? Ini menurut gua aplikasinya keren banget sih. Jadi aplikasi ini ngebikin gua bisa nge-track seluruh aspek finansial gua. Mulai dari income, expense, asset, sampe liability. Gua bisa tau kemana duit gua pergi secara detail. Lo mending check dah di @kudokuapp atau di ';
+        'Eh, lo udah cek @kudokuapp belum? Ini menurut gua aplikasinya keren banget sih. Pake Kudoku, gua bisa nge-track pemasukan, pengeluaran, investasi, tabungan sampe utang gua. ';
     const URISafeTwitter = encodeURIComponent(textTwitter);
     const twitterLink = `https://twitter.com/intent/tweet?text=${URISafeTwitter}%20https%3A%2F%2Fkudoku.id%3Futm_source%3Dtwitter`;
 
