@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import mockup from './components/images/mockup.svg';
+import mockup from './components/images/mockup.png';
 
 export const Mockup = () => {
     return (
