@@ -105,7 +105,7 @@ export default function MyApp({ Component, pageProps }: { Component: any; pagePr
                 <meta name="msapplication-TileColor" content="#2C5EA8" />
                 <meta name="msapplication-TileImage" content="/ManifestImage/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#2C5EA8" />
-                <meta name="title" content="Kudoku - Ngatur Duit? Gampang." />
+                <meta name="title" content="Kudoku - Gampang Ngatur Duit" />
                 <meta
                     name="description"
                     content="Kewalahan ngatur duit? Buruan pake Kudoku biar lo pinter ngatur duit. Gratis!"
@@ -115,7 +115,7 @@ export default function MyApp({ Component, pageProps }: { Component: any; pagePr
                 <meta property="fb:pages" content="" />
                 <meta property="og:type" content="product" />
                 <meta property="og:url" content="https://www.kudoku.id/" />
-                <meta property="og:title" content="Kudoku - Ngatur Duit? Gampang." />
+                <meta property="og:title" content="Kudoku - Gampang Ngatur Duit" />
                 <meta
                     property="og:description"
                     content="Kewalahan ngatur duit? Buruan pake Kudoku biar lo pinter ngatur duit. Gratis!"
@@ -124,13 +124,13 @@ export default function MyApp({ Component, pageProps }: { Component: any; pagePr
                 <meta name="twitter:card" content="photo" />
                 <meta name="twitter:site" content="@kudokuapp" />
                 <meta name="twitter:creator" content="@kudokuapp" />
-                <meta name="twitter:title" content="Kudoku - Ngatur Duit? Gampang." />
+                <meta name="twitter:title" content="Kudoku - Gampang Ngatur Duit" />
                 <meta
                     name="twitter:description"
                     content="Kewalahan ngatur duit? Buruan pake Kudoku biar lo pinter ngatur duit. Gratis!"
                 />
                 <meta name="twitter:image:src" content="https://kudoku.id/meta.png" />
-                <meta itemProp="name" content="Kudoku - Ngatur Duit? Gampang." />
+                <meta itemProp="name" content="Kudoku - Gampang Ngatur Duit" />
                 <meta
                     itemProp="description"
                     content="Kewalahan ngatur duit? Buruan pake Kudoku biar lo pinter ngatur duit. Gratis!"
