@@ -139,7 +139,7 @@ export const FormComponent = ({
                 <input
                     type="submit"
                     value="Submit"
-                    className="w-full text-center font-bold text-onPrimary bg-gradient-to-br from-primary to-secondary rounded-lg shadow-lg text-xl py-2 cursor-pointer animation-mantep hover:from-primary hover:to-tertiary"
+                    className="w-full text-center font-bold text-onPrimary bg-gradient-to-br from-primary to-secondary rounded-lg shadow-lg text-xl py-2 cursor-pointer animation-popup hover:from-primary hover:to-tertiary"
                 />
             </form>
         </div>

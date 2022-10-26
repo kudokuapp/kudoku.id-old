@@ -6,7 +6,7 @@ import { Mockup } from './Mockup';
 import { OldvsNew } from './OldvsNew';
 import { Team } from './Team';
 import { RegisterLayout } from '../../components/RegisterLayout';
-import { IntelligentCalendarSwiper } from './IntelligentCalendar'
+// import { IntelligentCalendarSwiper } from './IntelligentCalendar';
 
 export const HomePage = () => {
     return (
@@ -19,7 +19,7 @@ export const HomePage = () => {
                 <Manifesto />
                 <Explanation />
                 <OldvsNew />
-                <IntelligentCalendarSwiper />
+                {/* <IntelligentCalendarSwiper /> */}
             </section>
 
             <RegisterLayout />

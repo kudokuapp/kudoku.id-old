@@ -1,18 +1,18 @@
 export const getFullDate = (shortDate: Date) => {
     const fullday = new Date(shortDate);
     const monthNames = [
-        'January',
-        'February',
-        'March',
+        'Januari',
+        'Februari',
+        'Maret',
         'April',
-        'May',
-        'June',
-        'July',
-        'August',
+        'Mei',
+        'Juni',
+        'Juli',
+        'Agustus',
         'September',
-        'October',
+        'Oktober',
         'November',
-        'December',
+        'Desember',
     ];
 
     const date = fullday.getDate();

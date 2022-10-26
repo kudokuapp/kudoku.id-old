@@ -16,14 +16,16 @@ export const Form = (props: any) => {
         >
             <Dialog.Panel className="w-full shadow-xl rounded-3xl min-w-[300px]" as="div">
                 <form onSubmit={props.handleSubmit} className="w-full">
-                    <div className="w-full bg-onPrimary flex items-center justify-between rounded-3xl p-2.5 gap-4">
+                    <div className="w-full bg-onPrimary flex items-center justify-between rounded-3xl p-2.5 gap-4 border-2 border-outline focus-within:border-primary">
                         <input
                             type="text"
                             name="text"
                             className="w-full focus:outline-none"
-                            placeholder="Write your comment here..."
+                            placeholder="Tulis komen kamu"
                             value={text}
                             onChange={(e) => setText(e.target.value)}
+                            maxLength={260}
+                            required
                         />
                         <button
                             className="bg-primary rounded-3xl px-3 py-1 w-fit h-fit shadow-2xl cursor-pointer hover:bg-onPrimaryContainer text-onPrimary text-center"
