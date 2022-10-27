@@ -13,11 +13,11 @@ export const Announcement = () => {
                 </div>
                 <div className="bg-primary bg-opacity-20 rounded-b-xl p-4">
                     <p className="font-base text-onPrimaryContainer">
-                        Kita sengaja gak ngasih deadline untuk semua feature release kita. Kenapa?
-                        Karena kita mau under promise over deliver. Kita gamau ngasih unmet
+                        Kami sengaja gak ngasih deadline untuk semua feature release Kudoku. Kenapa?
+                        Karena kami mau under promise & over deliver. Kami gamau ngasih unmet
                         expectations ke lo sebagai user dan ke tim Kudoku sendiri. Terlalu banyak
                         unknown variable untuk ngasih waktu kapan feature tertentu release. Yang
-                        penting, kita kerja as fast as possible given finite time and money.
+                        penting, kami kerja as fast as possible given finite time and money.
                     </p>
                 </div>
             </div>

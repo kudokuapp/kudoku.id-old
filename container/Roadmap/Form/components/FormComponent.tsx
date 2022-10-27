@@ -25,7 +25,7 @@ export const FormComponent = ({
                         value={email}
                         name="email"
                         onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Email kamu disini..."
+                        placeholder="Email lo disini..."
                         required
                         className="px-2 py-2 w-full font-base text-onPrimary bg-onPrimaryContainer rounded-md border border-outline focus:outline-none focus:ring-2 focus:ring-secondaryContainer"
                     />
@@ -33,7 +33,7 @@ export const FormComponent = ({
 
                 <div className="w-full flex flex-col gap-3">
                     <span className="block font-bold text-lg text-onPrimaryContainer">
-                        Apa saran kamu? <span className="font-normal">(Pilih satu)</span>
+                        Apa saran yang lo punya? <span className="font-normal">(Pilih satu)</span>
                     </span>
                     <ul className="w-full flex flex-wrap list-none gap-2 gap-y-4">
                         <li>
@@ -132,7 +132,7 @@ export const FormComponent = ({
                     value={suggestion}
                     name="suggestion"
                     onChange={(e) => setSuggesstion(e.target.value)}
-                    placeholder="Deskripsikan ide atau masukan kamu disini..."
+                    placeholder="Deskripsikan ide atau masukan lo disini ya"
                     className="w-full bg-onPrimaryContainer text-onPrimary p-2 rounded-md font-base border border-outline focus:outline-none focus:ring-2 focus:ring-secondaryContainer min-h-[200px]"
                     required
                 />

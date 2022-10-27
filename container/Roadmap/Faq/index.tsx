@@ -14,13 +14,13 @@ export const Faq = () => {
                 <div className="bg-primary bg-opacity-20 rounded-b-xl p-4">
                     <p className="font-base text-onPrimaryContainer">
                         Untuk sekarang, Kudoku cuman ada web-app yang bisa lo akses di
-                        app.kudoku.id. Berhubung Kudoku ini startup baru, kita gak punya resource
-                        yang banyak untuk kita bisa develop apps di play store atau app store
-                        (apple). Yang kita bisa lakuin untuk nge reach banyak user dan sesuai sama
-                        visi kita (ngebuat semua orang seneng ngatur duit), ya kita buat web-app.
-                        Jangan khawatir, web-app kudoku works exactly the same as a traditional app
-                        yang lo biasa install di hp lo. Plus Kudoku bisa dipake di desktop loh gak
-                        kyk app traditional.
+                        app.kudoku.id. Berhubung Kudoku ini startup baru, kami gak punya resource
+                        yang banyak untuk bisa develop apps di play store atau app store (apple).
+                        Yang kami bisa lakuin untuk nge-reach banyak user dan sesuai sama visi kami
+                        (ngebuat semua orang seneng ngatur duit), ya kami buat web-app. Jangan
+                        khawatir, web-app kudoku works exactly the same as a traditional app yang lo
+                        biasa install di hp lo. Plus Kudoku bisa dipake di desktop loh, gak cuman di
+                        hp seperti app traditional.
                     </p>
                 </div>
             </div>

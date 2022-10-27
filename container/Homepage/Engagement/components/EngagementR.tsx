@@ -25,7 +25,7 @@ export const EngagementR = () => {
                     Mau bantuin kita?
                 </h4>
                 <h5 className="sm:text-left text-center lg:text-4xl font-bold text-3xl text-onPrimaryContainer">
-                    Ini hal yang bisa kamu lakuin
+                    Ini hal yang bisa lo lakuin
                 </h5>
             </div>
             <ul className="mt-10 flex flex-col gap-4 list-none lg:px-16 md:px-10 sm:px-8 px-6">

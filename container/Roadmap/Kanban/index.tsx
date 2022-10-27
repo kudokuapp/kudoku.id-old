@@ -17,7 +17,7 @@ export const Kanban = (props: Props) => {
                 color="tertiary"
                 icon={faPen}
                 heading="Planning"
-                subheading="Feature yang lagi kita design, plan, and research yang sebentar lagi bakal kita develop."
+                subheading="Feature yang lagi kami plan, research, dan design yang sebentar lagi bakalan kami develop."
             >
                 {props.data.dataPlanning.map((item: any, index: number) => {
                     let typeArr = Array.from(item.properties.Type.multi_select).map((item: any) => {
@@ -40,7 +40,7 @@ export const Kanban = (props: Props) => {
                 color="secondary"
                 icon={faPersonRunning}
                 heading="In Progress"
-                subheading="Feature yang udah selesai di design dan lagi proses develop. Disini kita fokus ngoding bossss."
+                subheading="Feature yang udah selesai di design dan lagi proses develop. Disini tim Kudoku fokus ngoding bossss."
             >
                 {props.data.dataInProgress.map((item: any, index: number) => {
                     let typeArr = Array.from(item.properties.Type.multi_select).map((item: any) => {
@@ -63,7 +63,7 @@ export const Kanban = (props: Props) => {
                 color="primary"
                 icon={faMagnifyingGlass}
                 heading="Under Review"
-                subheading="Feature yang udah kelar di koding tapi kyknya masih ada bugs, jadi kita tes dulu bos. Kalo udah rilis, kita taro di changelog."
+                subheading="Feature yang udah kelar di koding tapi kayanya masih ada bugs (error), jadi di tes dulu bos. Kalo udah rilis, kami akan taro di changelog."
             >
                 {props.data.dataUnderReview.map((item: any, index: number) => {
                     let typeArr = Array.from(item.properties.Type.multi_select).map((item: any) => {

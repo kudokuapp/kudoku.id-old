@@ -10,7 +10,7 @@ export const EngagementL = () => {
                     Ikuti perjalanan Kudoku
                 </h2>
                 <h3 className="text-secondary sm:text-2xl text-center font-[500] sm:mt-10 text-xl mt-4">
-                    Follow Kudoku di social media biar kita sama-sama bangun aplikasi terkeren di
+                    Follow Kudoku di media sosial biar kita sama-sama bangun aplikasi terkeren di
                     muka bumi ini.
                 </h3>
             </div>
