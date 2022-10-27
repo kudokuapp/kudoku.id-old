@@ -123,13 +123,13 @@ export const Avatar = (props: {
             );
         } else {
             return (
-                <div className="relative animation-mantep">
-                    {renderNotification()}
+                <div className="relative animation-popup">
                     <button
                         onClick={() => setIsOpen(true)}
                         className="min-w-[34px] w-[34px] min-h-[34px] h-[34px] rounded-tl-[40px] rounded-tr-[40px] rounded-bl-[40px] rounded-br-[8px] border-2 border-primary bg-primary flex items-center justify-center shadow-sm"
                         style={{ overflow: 'hidden' }}
                     >
+                        {renderNotification()}
                         <div className="w-[34px] h-[34px] flex flex-col items-center justify-center">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
