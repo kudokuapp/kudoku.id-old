@@ -10,7 +10,7 @@ export default function Page() {
         <>
             <Head>
                 <link rel="manifest" href="/manifest.json" />
-                <title>Kudoku - Ngatur Duit? Gampang.</title>
+                <title>Kudoku - Gampang Ngatur Duit</title>
             </Head>
 
             {/* <button
