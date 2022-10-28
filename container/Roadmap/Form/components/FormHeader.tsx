@@ -10,8 +10,8 @@ export const FormHeader = () => {
                 Influence our roadmap
             </h6>
             <p className="max-w-[600px] md:text-2xl text-xl text-onPrimaryContainer text-center">
-                Punya ide, masukan, saran, atau apapun itu? Kasih tau kita dengan mengisi form
-                dibawah ini! Atau lo juga bisa email kita di{' '}
+                Punya ide, masukan, saran, atau apapun itu? Kasih tau kami dengan mengisi form
+                dibawah ini! Atau lo juga bisa kirim email ke tim Kudoku di{' '}
                 <Link href="mailto:business@kudoku.id">
                     <button className="font-bold text-primary cursor-pointer animation-mantep hover:text-tertiary hover:ml-3 animation-popup">
                         business@kudoku.id

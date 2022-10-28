@@ -11,7 +11,8 @@ export const Team = () => {
                 </h5>
                 <div className="mt-4">
                     <h6 className="text-onPrimary sm:text-2xl text-xl font-[500] text-center">
-                        Buat kamu yang penasaran, pilih waktu buat ngobrol sama yang ngebuat Kudoku.
+                        Buat lo yang penasaran, lo bisa pilih waktu buat ngobrol sama yang ngebuat
+                        Kudoku.
                     </h6>
                     <h6 className="text-onPrimary sm:text-2xl text-xl font-[500] text-center">
                         Kita bisa diskusi apa aja tentang aplikasi finansial yang{' '}

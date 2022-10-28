@@ -11,16 +11,16 @@ export const Header = () => {
                 </h1>
                 <div className="flex flex-col items-center m-0 max-w-[800px] gap-8">
                     <p className="text-center font-base md:text-2xl text-xl m-0">
-                        Kudoku sebagai produk dan perusahaan masih ada di stage awal banget.
+                        Kudoku sebagai produk dan perusahaan masih berada di stage awal banget.
                         Aplikasi yang lo liat sekarang BELUM menjadi aplikasi yang kita bayangkan
-                        dan damba-dambakan. Tapi kita tau, to get to the end point, we have to have
+                        dan damba-dambakan. Tapi kami tau, to get to the end point, we have to have
                         a starting point.
                     </p>
                     <p className="text-center font-base md:text-2xl text-xl m-0">
-                        Semoga roadmap ini ngebuat lo ngeliat apa yang lagi kita kerjain untuk
-                        jangka waktu short dan mid term. Dan percayalah, we are working our asses
-                        off untuk ngebuat produk ini sebagus mungkin. Semua hal yang udah kita
-                        release bisa lo liat di{' '}
+                        Semoga roadmap ini bisa ngebuat lo ngeliat apa yang lagi kita kerjain untuk
+                        jangka waktu short maupun mid term. Dan percayalah, we are working our asses
+                        off untuk ngebuat produk ini sebagus mungkin. Semua hal yang udah Kudoku
+                        release, bisa lo liat di{' '}
                         <Link href="/changelog">
                             <button className="bg-primary animation-popup font-bold hover:bg-onPrimaryContainer m-1 text-onPrimary px-2 py-0.5 rounded-md shadow-md">
                                 changelog
