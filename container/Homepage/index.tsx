@@ -4,6 +4,7 @@ import { Explanation } from './Explanation';
 import { Manifesto } from './Manifesto';
 import { Mockup } from './Mockup';
 import { OldvsNew } from './OldvsNew';
+import { MainFeatures } from './MainFeatures';
 import { Team } from './Team';
 import { RegisterLayout } from '../../components/RegisterLayout';
 
@@ -16,6 +17,7 @@ export const HomePage = () => {
             <section className="flex flex-col h-full w-full max-w-[1400px] mx-auto lg:px-0 px-[3vmin]">
                 <Mockup />
                 <Manifesto />
+                <MainFeatures />
                 <Explanation />
                 <OldvsNew />
                 {/* <IntelligentExpense /> */}

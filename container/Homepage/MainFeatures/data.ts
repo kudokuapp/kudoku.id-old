@@ -1,32 +1,31 @@
-import budgeting from "../../../public/images/Content.svg";
-import tracking from "../../../public/images/budgetingDetailed.svg";
-import saving from "../../../public/images/budgetingDetailed.svg";
-import asset from "../../../public/images/budgetingDetailed.svg";
-import bills from "../../../public/images/budgetingDetailed.svg";
-import mortgage from "../../../public/images/budgetingDetailed.svg";
+import widget from '../../../public/images/Widget.svg';
+import monthly from '../../../public/images/Monthly.svg';
+import transaction from '../../../public/images/Tracking.svg';
+import assets from '../../../public/images/Assets.svg';
+import spouse from '../../../public/images/Couple.svg';
+// import mortgage from '../../../public/images/budgetingDetailed.svg';
 
 const data = [
-	{
-		imageSrc: budgeting,
-		imageAlt:
-			"Customize your homepage as you wish",
-	},
-	{
-		imageSrc: tracking,
-		imageAlt: "See your finance in monthly timeframe",
-	},
-	{
-		imageSrc: saving,
-		imageAlt: "All of your transactions in one place",
-	},
-	{
-		imageSrc: bills,
-		imageAlt: "Your assets? liabilities? mortgage? We got that.",
-	},
-	{
-		imageSrc: asset,
-		imageAlt: "Share your finances with your spouse",
-	},
+    {
+        imageSrc: widget,
+        imageAlt: 'Atur tampilan homepage sesuka lo',
+    },
+    {
+        imageSrc: monthly,
+        imageAlt: 'Analisa keuangan bulanan makin lengkap',
+    },
+    {
+        imageSrc: transaction,
+        imageAlt: 'Seluruh transaksi lo ada disatu layar',
+    },
+    {
+        imageSrc: assets,
+        imageAlt: 'Dapetin informasi nilai aset maupun liabilitas',
+    },
+    {
+        imageSrc: spouse,
+        imageAlt: 'Ngatur duit bareng pasangan makin seru',
+    },
 ];
 
 export default data;
