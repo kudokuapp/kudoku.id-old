@@ -6,7 +6,6 @@ import { Mockup } from './Mockup';
 import { OldvsNew } from './OldvsNew';
 import { Team } from './Team';
 import { RegisterLayout } from '../../components/RegisterLayout';
-// import { IntelligentExpense } from './IntelligentExpense';
 
 export const HomePage = () => {
     return (
