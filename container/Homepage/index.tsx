@@ -7,6 +7,7 @@ import { OldvsNew } from './OldvsNew';
 import { MainFeatures } from './MainFeatures';
 import { Team } from './Team';
 import { RegisterLayout } from '../../components/RegisterLayout';
+// import { IntelligentExpense } from './IntelligentExpense';
 
 export const HomePage = () => {
     return (
