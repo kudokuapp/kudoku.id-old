@@ -25,8 +25,8 @@ export const Hero = () => {
                     </h1>
                     <h2 className="text-center font-[500] text-xl sm:text-3xl text-onPrimaryContainer my-0 mt-4 px-4">
                         Kenalin Kudoku,{' '}
-                        <span className="font-bold">aplikasi pengelola keuangan</span> yang fiturnya
-                        paling mantep.
+                        <span className="font-bold">aplikasi pengelola keuangan</span> yang gak
+                        bikin lo pusing.
                     </h2>
                     <div className="sm:my-16 my-8 w-full">
                         <Placeholder type={'normal'} />
