@@ -10,46 +10,32 @@ export const Manifesto = () => {
                 Kami punya impian untuk membuat aplikasi pengelola keuangan yang terbaik.
             </h2>
             <ManifestoText>
-                Gak sedikit dari kita yang pusing dalam mengatur keuangan pribadi. Bukan karena kita
-                gak mampu, tapi karena kebanyakan dari kita gapernah diajarin hal ini secara baik
-                dan benar. Buat lo yang merasa masih “payah” dalam perkara ngatur duit, lo mending
-                baca manifesto ini sampe abis.
-            </ManifestoText>
-            <ManifestoText>
                 Mengelola keuangan pribadi itu ribet-ribet gampang. Ribet karena banyak hal yang
-                harus lo pikirin, gampang karena udah banyak tools yang bisa ngebantu lo, mulai dari{' '}
-                <i>spreadsheets</i> sampai <i>Personal Financial Management</i> app (PFM). Tapi,{' '}
-                <i>tools</i> yang udah tersedia untuk membantu lo belum bisa bekerja secara
-                maksimal. Itulah kenapa, 8 dari 10 teman kami berhenti mengelola keuangan pribadi
-                walaupun udah make <i>tools</i> ini itu. Bukan karena mereka males, tapi mereka
-                malah ngerasa pusing sendiri dengan menggunakan <i>tools</i> itu, khususnya saat
-                menggunakan PFM.
+                harus lo pikirin, gampang karena udah banyak tools yang bisa ngebantu lo, mulai
+                dari <i>spreadsheets</i> sampai <i>Personal Financial Management app</i> (PFM).
+                Tapi, <i>tools</i> yang udah tersedia untuk membantu lo belum bisa bekerja secara
+                maksimal. Masih banyak orang yang ujung-ujungnya berhenti ngatur duit karena malah
+                pusing sendiri.
             </ManifestoText>
             <ManifestoText>
-                Itulah kenapa kami bertiga mencoba membuat <strong>Kudoku</strong>.{' '}
+                Itulah kenapa kami bertiga mencoba membuat Kudoku. 
                 <i>
                     It’s gonna be the best personal financial management app that you’ll ever use.
                     It’s a single app to help you control all your transactions, your investments,
-                    even your assets and liabilities
-                </i>
-                . Kami jamin, lo gak bakal pusing lagi ngontrol duit lo, dan perjalanan lo untuk
-                mencari-cari aplikasi finansial mana yang paling cocok buat lo, akan berhenti
-                disini.
+                    even your assets and liabilities.
+                </i>{' '}
+                A bird's eye view yang bisa ngebantu lo ngertiin kondisi keuangan lo sekarang dan
+                pergi ke level finansial yang selanjutnya.
             </ManifestoText>
             <ManifestoText>
-                Pendekatan Kudoku itu beda. Kami tau kalau setiap orang punya cara sendiri-sendiri
-                untuk ngatur duit. Itulah kenapa Kudoku gak bakal ngebatasin lo dengan
-                template-template cara ngatur keuangan. Apapun cara lo untuk mengatur keuangan lo,
-                bisa lo terapin di Kudoku.
+                Lo gak bakal pusing lagi ngontrol duit lo, dan perjalanan lo untuk mencari-cari
+                aplikasi finansial mana yang paling cocok buat lo, akan berhenti disini.
             </ManifestoText>
             <ManifestoText>
-                <i>
-                    We love making a better solution for you to control your personal finance in a
-                    better, and joyful way
-                </i>
-                . Kalau lo tertarik dengan alasan lebih lengkap kami ngebuat Kudoku, lo bisa baca
+                Kalau lo tertarik dengan alasan lebih lengkap kami ngebuat Kudoku, lo bisa baca
                 lengkap manifesto Kudoku.
             </ManifestoText>
+
             <Link href="/manifesto">
                 <button className="bg-gradient-to-br from-primary to-secondary text-onPrimary font-[500] text-lg px-4 py-1.5 rounded-md flex items-center gap-2 shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
                     <span>Baca lebih lengkap</span>
