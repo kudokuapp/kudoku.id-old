@@ -9,9 +9,8 @@ export const Hero = () => {
 
     useEffect(() => {
         (async function () {
-            const response = await axios.get('https://webhook.kudoku.id/api/checkid');
-
-            setData(response.data.id);
+            const response = await axios.get('/api/getkudosnumber');
+            setData(response.data.data)
         })();
     }, []);
 

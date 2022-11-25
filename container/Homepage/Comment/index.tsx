@@ -72,8 +72,6 @@ export const Comment = () => {
 
         event.target.text.value = '';
 
-        console.log(data);
-
         const JSONdata = JSON.stringify(data);
 
         const options = {

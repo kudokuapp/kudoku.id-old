@@ -24,7 +24,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         const date = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
 
         const dbResponse = await dbQuery(wa, date);
-        console.log('dbResponse', dbResponse);
     } catch (e) {
         console.error(e);
         res.status(500).send(e);

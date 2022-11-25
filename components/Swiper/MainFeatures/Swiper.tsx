@@ -117,7 +117,6 @@ const Swiper = ({ items }: any) => {
 			{
 			setCurrentIdx(4)
 			}
-			console.log(event.deltaY)
 		});
 
 	return (
