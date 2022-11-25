@@ -11,9 +11,9 @@ export const Manifesto = () => {
             </h2>
             <ManifestoText>
                 Mengelola keuangan pribadi itu ribet-ribet gampang. Ribet karena banyak hal yang
-                harus lo pikirin, gampang karena udah banyak tools yang bisa ngebantu lo, mulai
+                harus kita pikirin, gampang karena udah banyak tools yang bisa ngebantu kita, mulai
                 dari <i>spreadsheets</i> sampai <i>Personal Financial Management app</i> (PFM).
-                Tapi, <i>tools</i> yang udah tersedia untuk membantu lo belum bisa bekerja secara
+                Tapi, <i>tools</i> yang udah tersedia untuk membantu kita belum bisa bekerja secara
                 maksimal. Masih banyak orang yang ujung-ujungnya berhenti ngatur duit karena malah
                 pusing sendiri.
             </ManifestoText>
